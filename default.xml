@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="github" fetch="https://github.com/chuzihang1237" />
+  <default remote="github" revision="main" />
+
+  <!-- 内核仓库，拉取后放在本地kernel目录 -->
+  <project name="firefly-rk3588-kernel" path="kernel" />
+  <!-- uboot仓库，拉取后放在本地u-boot目录 -->
+  <project name="firefly-rk3588-uboot" path="u-boot" />
+  <!-- buildroot仓库，拉取后放在本地buildroot目录 -->
+  <project name="firefly-rk3588-buildroot" path="buildroot" />
+</manifest>
